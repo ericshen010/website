@@ -6,26 +6,27 @@ p
 h1#name{
 font-family: 'Courier New', Courier, monospace;
 }
+section#about{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 
-/* Reset default margin and padding for all elements */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Apply a background color to the body */
 body {
   background-color: lightblue; /* Change this to light blue */
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
 
-/* Header Styles with Flexbox */
 header {
-  background-color: blue;
-  color: red;
-  padding: 20px;
+  padding: 25px;
+  background-image: linear-gradient(to right, lightgreen,lightblue);
+  color: green;
+  margin: 50px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,10 +76,10 @@ img#smile
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
 }
-/* Navigation Menu Styles with Flexbox */
+
 nav {
-  background-color: red;
-  color: red;
+  background-color: lightgreen;
+  color: green;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -93,22 +94,51 @@ nav li {
   margin-right: 20px;
 }
 
-/* Main Content Layout with Grid Layout */
 .main-content {
   padding: 20px;
   display: grid;
-  grid-template-columns: 2fr 1fr; /* Example: 2 columns with a 2:1 ratio */
+  grid-template-columns: 2fr 1fr; 
   gap: 20px;
 }
+section#about
+{
+padding:25px;
+position: relative;
+margin: 50px 10px;
+background-image: linear-gradient(to right, lightblue, darkblue);
+border-radius: 50px;
+}
+section#hobbies
+{
+padding:25px;
+position: relative;
+margin: 50px 10px;
+background-image: linear-gradient(to right, lightblue, darkblue);
+border-radius: 50px;
+}
+section#favorites
+{
+padding:25px;
+position: relative;
+margin: 50px 10px;
+background-image: linear-gradient(to right, lightblue, darkblue);
+border-radius: 50px;
+}
+article#contact
+{
+padding:25px;
+position: relative;
+margin: 50px 10px;
+background-image: linear-gradient(to right, lightblue, darkblue);
+border-radius: 50px;
+}
 
-/* Adjust Grid Layout for Mobile with Media Query */
 @media (max-width: 768px) {
   .main-content {
     grid-template-columns: 1fr; /* Single column for mobile */
   }
 }
 
-/* Sidebar Styles with Flexbox */
 .sidebar {
   background-color: #f9f9f9;
   padding: 10px;
@@ -116,7 +146,6 @@ nav li {
   flex-direction: column; /* Stack sidebar items vertically */
 }
 
-/* Button Styles with Flexbox */
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -132,16 +161,16 @@ nav li {
   background-color: #005a9e;
 }
 
-/* Footer Styles with Flexbox */
 footer {
-  background-color: blue;
+  padding: 25px;
+  background-image: linear-gradient(to right, lightgreen, lightblue);
   color: red;
   text-align: center;
   padding: 20px;
   margin-top: 20px;
+  display: flex;
 }
 
-/* Welcome Message Animation */
 @keyframes fadeOut {
   0% {
     opacity: 1;
@@ -150,24 +179,16 @@ footer {
     opacity: 0;
   }
 }
-
-.welcome-message {
+i#welcome
+ {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #0078d4; /* Background color for welcome message */
+  background-color: #0078d4; 
   color: #fff;
   font-size: 24px;
   text-align: center;
   padding: 10px;
-  animation: fadeOut 3s ease 1s forwards; /* Fade out animation with a delay */
-}
-i#welcome
-{
-  animation-name: fadeOut;
-  animation-duration: 1s;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: alternate-reverse;
+  animation: fadeOut 3s ease 1s forwards; 
 }
