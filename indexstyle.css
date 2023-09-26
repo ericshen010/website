@@ -1,0 +1,83 @@
+p
+{
+ font-size:25px;
+}
+
+h1#name{
+font-family: 'Courier New', Courier, monospace;
+}
+/* Header Styles with Flexbox */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navigation Menu Styles with Flexbox */
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+/* Main Content Layout with Grid Layout */
+.main-content {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Example: 2 columns with a 2:1 ratio */
+  gap: 20px;
+}
+
+/* Adjust Grid Layout for Mobile with Media Query */
+@media (max-width: 768px) {
+  .main-content {
+    grid-template-columns: 1fr; /* Single column for mobile */
+  }
+}
+
+/* Sidebar Styles with Flexbox */
+.sidebar {
+  background-color: #f9f9f9;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Stack sidebar items vertically */
+}
+
+/* Button Styles with Flexbox */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0078d4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #005a9e;
+}
+
+/* Footer Styles with Flexbox */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
