@@ -3,12 +3,7 @@ p
  font-size:25px;
 }
 
-h1#name{
-font-family: 'Courier New', Courier, monospace;
-}
-section#about{
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
+
 
 * {
   margin: 0;
@@ -17,8 +12,8 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 body {
-  background-color: lightblue; /* Change this to light blue */
-  font-family: Arial, sans-serif;
+  background-color: lightblue; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 1.6;
 }
 
@@ -34,38 +29,38 @@ header {
 @keyframes imageanimate
  {
   0% {
-    margin-left: 25px;
+    margin-left: 20px;
   }
   10% {
-    margin-left: 30px;
+    margin-left: 25px;
   }
   20% {
-    margin-left: 35px;
+    margin-left: 30px;
   }
   30% {
-    margin-left: 40px;
+    margin-left: 35px;
   }
   40% {
-    margin-right: 45px;
+    margin-right: 40px;
   }
   50% {
-    margin-left: 50px;
+    margin-left: 45px;
     transform: rotate(360deg);
   }
   60% {
-    margin-right: 45px;
-  }
-  70% {
     margin-right: 40px;
   }
-  80% {
+  70% {
     margin-right: 35px;
   }
-  90% {
+  80% {
     margin-right: 30px;
   }
-  100% {
+  90% {
     margin-right: 25px;
+  }
+  100% {
+    margin-right: 20px;
   }
 }
 img#smile
@@ -146,31 +141,46 @@ border-radius: 50px;
   flex-direction: column; /* Stack sidebar items vertically */
 }
 
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #0078d4;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 10px;
-  cursor: pointer;
-}
 
-.button:hover {
-  background-color: #005a9e;
-}
 
 footer {
   padding: 25px;
   background-image: linear-gradient(to right, lightgreen, lightblue);
-  color: red;
+  color: green;
   text-align: center;
   padding: 20px;
   margin-top: 20px;
   display: flex;
 }
-
+a#hobutton
+{
+box-shadow: 5px 5px 0px 0px darkblue;
+padding: 10px;
+border-radius: 10px;
+margin: 20px 10px;
+color:black;
+}
+a#favbutton
+{
+box-shadow: 5px 5px 0px 0px darkblue;
+padding: 10px;
+border-radius: 10px;
+margin: 20px 10px;
+color:black;
+}
+.button:hover
+{
+  background-image:linear-gradient(to right, lightblue, darkblue);
+  cursor: pointer;
+}
+input#submit
+{
+box-shadow: 5px 5px 0px 0px darkblue;
+padding: 10px;
+border-radius: 10px;
+margin: 20px 10px;
+color:black;
+}
 @keyframes fadeOut {
   0% {
     opacity: 1;

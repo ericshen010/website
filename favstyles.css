@@ -1,0 +1,50 @@
+body{
+background-color:lightblue;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+line-height: 1.6;
+}
+div#music
+{
+    padding:25px;
+    position: relative;
+    margin: 50px 10px;
+    background-image: linear-gradient(to right, lightblue, darkblue);
+    border-radius: 50px;
+}
+div#books
+{
+    padding:25px;
+    position: relative;
+    margin: 50px 10px;
+    background-image: linear-gradient(to right, lightblue, darkblue);
+    border-radius: 50px;
+}
+div#movies
+{
+    padding:25px;
+    position: relative;
+    margin: 50px 10px;
+    background-image: linear-gradient(to right, lightblue, darkblue);
+    border-radius: 50px;
+}
+div#tvshows
+{
+    padding:25px;
+    position: relative;
+    margin: 50px 10px;
+    background-image: linear-gradient(to right, lightblue, darkblue);
+    border-radius: 50px;
+}
+a#return
+{
+box-shadow: 5px 5px 0px 0px darkblue;
+padding: 10px;
+border-radius: 10px;
+margin: 20px 10px;
+color:black;
+}
+.button:hover
+{
+  background-image:linear-gradient(to right, lightblue, darkblue);
+  cursor: pointer;
+}
