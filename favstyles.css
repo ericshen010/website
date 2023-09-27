@@ -1,5 +1,10 @@
 body{
-background-color:lightblue;
+    background-image: radial-gradient(
+        circle,
+        blue 10%,
+        transparent 11%
+      );
+      background-size: 30px 30px; /* Adjust the size of the dots */
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 line-height: 1.6;
 }
