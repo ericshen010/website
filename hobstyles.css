@@ -53,38 +53,6 @@ img#smile
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
 }
-div#music
-{
-    padding:25px;
-    position: relative;
-    margin: 50px 10px;
-    background-image: linear-gradient(to right, lightblue, darkblue);
-    border-radius: 50px;
-}
-div#books
-{
-    padding:25px;
-    position: relative;
-    margin: 50px 10px;
-    background-image: linear-gradient(to right, lightblue, darkblue);
-    border-radius: 50px;
-}
-div#movies
-{
-    padding:25px;
-    position: relative;
-    margin: 50px 10px;
-    background-image: linear-gradient(to right, lightblue, darkblue);
-    border-radius: 50px;
-}
-div#tvshows
-{
-    padding:25px;
-    position: relative;
-    margin: 50px 10px;
-    background-image: linear-gradient(to right, lightblue, darkblue);
-    border-radius: 50px;
-}
 a#return
 {
 box-shadow: 5px 5px 0px 0px darkblue;
@@ -97,4 +65,44 @@ color:black;
 {
   background-image:linear-gradient(to right, lightblue, darkblue);
   cursor: pointer;
+}
+div#volleyball
+{
+    padding:25px;
+    position: relative;
+    margin: 50px 10px;
+    background-image: linear-gradient(to right, lightblue, darkblue);
+    border-radius: 50px;
+}
+div#exercise
+{
+    padding:25px;
+    position: relative;
+    margin: 50px 10px;
+    background-image: linear-gradient(to right, lightblue, darkblue);
+    border-radius: 50px;
+}
+div#music
+{
+    padding:25px;
+    position: relative;
+    margin: 50px 10px;
+    background-image: linear-gradient(to right, lightblue, darkblue);
+    border-radius: 50px;
+}
+div#art
+{
+    padding:25px;
+    position: relative;
+    margin: 50px 10px;
+    background-image: linear-gradient(to right, lightblue, darkblue);
+    border-radius: 50px;
+}
+div#gaming
+{
+    padding:25px;
+    position: relative;
+    margin: 50px 10px;
+    background-image: linear-gradient(to right, lightblue, darkblue);
+    border-radius: 50px;
 }

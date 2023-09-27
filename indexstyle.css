@@ -30,38 +30,38 @@ header {
 @keyframes imageanimate
  {
   0% {
-    margin-left: 20px;
+    margin-left: 5px;
   }
   10% {
-    margin-left: 25px;
+    margin-left: 10px;
   }
   20% {
-    margin-left: 30px;
+    margin-left: 15px;
   }
   30% {
-    margin-left: 35px;
+    margin-left: 20px;
   }
   40% {
-    margin-right: 40px;
+    margin-right: 25px;
   }
   50% {
-    margin-left: 45px;
+    margin-left: 30px;
     transform: rotate(360deg);
   }
   60% {
-    margin-right: 40px;
-  }
-  70% {
-    margin-right: 35px;
-  }
-  80% {
-    margin-right: 30px;
-  }
-  90% {
     margin-right: 25px;
   }
-  100% {
+  70% {
     margin-right: 20px;
+  }
+  80% {
+    margin-right: 15px;
+  }
+  90% {
+    margin-right: 10px;
+  }
+  100% {
+    margin-right: 5px;
   }
 }
 img#smile
